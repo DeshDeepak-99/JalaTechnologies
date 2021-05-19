@@ -1,0 +1,45 @@
+Class:
+A Class is like an object constructor, or a "blueprint" for creating objects.
+To create a class, use the keyword "class".
+
+eg:
+ class Jala
+ {
+	Stetements;
+	..
+	..
+	..
+ }
+
+
+Object:
+In Java, an object is created from a class.To create an object of MyClass, specify the class name, followed by the object name, and use the keyword new.
+Although there are other way also to create a Object but I generally use new keyword to create a class.
+
+Eg:
+public class Jala {
+  int x = 5;
+
+  public static void main(String[] args) {
+    Jala myObj = new Jala();
+    System.out.println(myObj.x);
+  }
+}
+ 
+
+
+Method:
+A method is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a method.
+Methods are used to perform certain actions, and they are also known as functions.
+
+Eg:
+public class Main {
+  static void myMethod() {
+    // statements;
+	..
+	..
+
+  }
+}
+	
